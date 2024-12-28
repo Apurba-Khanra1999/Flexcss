@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
     "autoprefixer": "^10.4.20",
     "css-framework": "file:",
     "postcss": "^8.4.49",

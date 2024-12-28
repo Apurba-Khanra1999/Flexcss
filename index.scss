@@ -1,14 +1,738 @@
 // index.scss
 @import 'variables';
 @import 'base';
+@import 'sizes';
+@import 'colors';
+
+// Padding -------------------------------------------------
+
+.p-1{
+    padding: $size-1;
+}
+.p-2{
+    padding: $size-2;
+}
+.p-3{
+    padding: $size-3;
+}
+.p-4{
+    padding: $size-4;
+}
+.p-5{
+    padding: $size-5;
+}
+.p-6{
+    padding: $size-6;
+}
+.p-7{
+    padding: $size-7;
+}
+.p-8{
+    padding: $size-8;
+}
+.p-9{
+    padding: $size-9;
+}
+.p-10{
+    padding: $size-10;
+}
+.p-11{
+    padding: $size-11;
+}
+.p-12{
+    padding: $size-12;
+}
+.p-13{
+    padding: $size-13;
+}
+.p-14{
+    padding: $size-14;
+}
+.p-15{
+    padding: $size-15;
+}
+
+// +++++++++++++++++++++++++++++  Padding top ++++++++++++++++++++++++++++++++
+.pt-1{
+    padding-top: $size-1;
+}
+.pt-2{
+    padding-top: $size-2;
+}
+.pt-3{
+    padding-top: $size-3;
+}
+.pt-4{
+    padding-top: $size-4;
+}
+.pt-5{
+    padding-top: $size-5;
+}
+.pt-6{
+    padding-top: $size-6;
+}
+.pt-7{
+    padding-top: $size-7;
+}
+.pt-8{
+    padding-top: $size-8;
+}
+.pt-9{
+    padding-top: $size-9;
+}
+.pt-10{
+    padding-top: $size-10;
+}
+.pt-11{
+    padding-top: $size-11;
+}
+.pt-12{
+    padding-top: $size-12;
+}
+.pt-13{
+    padding-top: $size-13;
+}
+.pt-14{
+    padding-top: $size-14;
+}
+.pt-15{
+    padding-top: $size-15;
+}
+
+// +++++++++++++++++++++++++++++  Padding Right ++++++++++++++++++++++++++++++++
+.pr-1{
+    padding-right: $size-1;
+}
+.pr-2{
+    padding-right: $size-2;
+}
+.pr-3{
+    padding-right: $size-3;
+}
+.pr-4{
+    padding-right: $size-4;
+}
+.pr-5{
+    padding-right: $size-5;
+}
+.pr-6{
+    padding-right: $size-6;
+}
+.pr-7{
+    padding-right: $size-7;
+}
+.pr-8{
+    padding-right: $size-8;
+}
+.pr-9{
+    padding-right: $size-9;
+}
+.pr-10{
+    padding-right: $size-10;
+}
+.pr-11{
+    padding-right: $size-11;
+}
+.pr-12{
+    padding-right: $size-12;
+}
+.pr-13{
+    padding-right: $size-13;
+}
+.pr-14{
+    padding-right: $size-14;
+}
+.pr-15{
+    padding-right: $size-15;
+}
+
+// +++++++++++++++++++++++++++++  Padding Bottom ++++++++++++++++++++++++++++++++
+.pb-1{
+    padding-bottom: $size-1;
+}
+.pb-2{
+    padding-bottom: $size-2;
+}
+.pb-3{
+    padding-bottom: $size-3;
+}
+.pb-4{
+    padding-bottom: $size-4;
+}
+.pb-5{
+    padding-bottom: $size-5;
+}
+.pb-6{
+    padding-bottom: $size-6;
+}
+.pb-7{
+    padding-bottom: $size-7;
+}
+.pb-8{
+    padding-bottom: $size-8;
+}
+.pb-9{
+    padding-bottom: $size-9;
+}
+.pb-10{
+    padding-bottom: $size-10;
+}
+.pb-11{
+    padding-bottom: $size-11;
+}
+.pb-12{
+    padding-bottom: $size-12;
+}
+.pb-13{
+    padding-bottom: $size-13;
+}
+.pb-14{
+    padding-bottom: $size-14;
+}
+.pb-15{
+    padding-bottom: $size-15;
+}
+
+// +++++++++++++++++++++++++++++  Padding Left ++++++++++++++++++++++++++++++++
+.pl-1{
+    padding-left: $size-1;
+}
+.pl-2{
+    padding-left: $size-2;
+}
+.pl-3{
+    padding-left: $size-3;
+}
+.pl-4{
+    padding-left: $size-4;
+}
+.pl-5{
+    padding-left: $size-5;
+}
+.pl-6{
+    padding-left: $size-6;
+}
+.pl-7{
+    padding-left: $size-7;
+}
+.pl-8{
+    padding-left: $size-8;
+}
+.pl-9{
+    padding-left: $size-9;
+}
+.pl-10{
+    padding-left: $size-10;
+}
+.pl-11{
+    padding-left: $size-11;
+}
+.pl-12{
+    padding-left: $size-12;
+}
+.pl-13{
+    padding-left: $size-13;
+}
+.pl-14{
+    padding-left: $size-14;
+}
+.pl-15{
+    padding-left: $size-15;
+}
+
+// +++++++++++++++++++++++++++++  Padding X Axis ++++++++++++++++++++++++++++++++
+.px-1{
+    padding: 0 $size-1 0 $size-1;
+}
+.px-2{
+    padding: 0 $size-2 0 $size-2;
+}
+.px-3{
+    padding: 0 $size-3 0 $size-3;
+}
+.px-4{
+    padding: 0 $size-4 0 $size-4;
+}
+.px-5{
+    padding: 0 $size-5 0 $size-5;
+}
+.px-6{
+    padding: 0 $size-6 0 $size-6;
+}
+.px-7{
+    padding: 0 $size-7 0 $size-7;
+}
+.px-8{
+    padding: 0 $size-8 0 $size-8;
+}
+.px-9{
+    padding: 0 $size-9 0 $size-9;
+}
+.px-10{
+    padding: 0 $size-10 0 $size-10;
+}
+.px-11{
+    padding: 0 $size-11 0 $size-11;
+}
+.px-12{
+    padding: 0 $size-12 0 $size-12;
+}
+.px-13{
+    padding: 0 $size-13 0 $size-13;
+}
+.px-14{
+    padding: 0 $size-14 0 $size-14;
+}
+.px-15{
+    padding: 0 $size-15 0 $size-15;
+}
+
+
+// +++++++++++++++++++++++++++++  Padding Y Axis ++++++++++++++++++++++++++++++++
+.py-1{
+    padding: $size-1 0 $size-1 0;
+}
+.py-2{
+    padding: $size-2 0 $size-2 0;
+}
+.py-3{
+    padding: $size-3 0 $size-3 0;
+}
+.py-4{
+    padding: $size-4 0 $size-4 0;
+}
+.py-5{
+    padding: $size-5 0 $size-5 0;
+}
+.py-6{
+    padding: $size-6 0 $size-6 0;
+}
+.py-7{
+    padding: $size-7 0 $size-7 0;
+}
+.py-8{
+    padding: $size-8 0 $size-8 0;
+}
+.py-9{
+    padding: $size-9 0 $size-9 0;
+}
+.py-10{
+    padding: $size-10 0 $size-10 0;
+}
+.py-11{
+    padding: $size-11 0 $size-11 0;
+}
+.py-12{
+    padding: $size-12 0 $size-12 0;
+}
+.py-13{
+    padding: $size-13 0 $size-13 0;
+}
+.py-14{
+    padding: $size-14 0 $size-14 0;
+}
+.py-15{
+    padding: $size-15 0 $size-15 0;
+}
+
+// -------------------------------------------------------------------------------------------------------------------------------
+
+// MARGIN -----------------------------------------------------
+.m-1{
+    margin: $size-1;
+}
+.m-2{
+    margin: $size-2;
+}
+.m-3{
+    margin: $size-3;
+}
+.m-4{
+    margin: $size-4;
+}
+.m-5{
+    margin: $size-5;
+}
+.m-6{
+    margin: $size-6;
+}
+.m-7{
+    margin: $size-7;
+}
+.m-8{
+    margin: $size-8;
+}
+.m-9{
+    margin: $size-9;
+}
+.m-10{
+    margin: $size-10;
+}
+.m-11{
+    margin: $size-11;
+}
+.m-12{
+    margin: $size-12;
+}
+.m-13{
+    margin: $size-13;
+}
+.m-14{
+    margin: $size-14;
+}
+.m-15{
+    margin: $size-15;
+}
+
+// +++++++++++++++++++++++++++++  Margin top ++++++++++++++++++++++++++++++++
+.mt-1{
+    margin-top: $size-1;
+}
+.mt-2{
+    margin-top: $size-2;
+}
+.mt-3{
+    margin-top: $size-3;
+}
+.mt-4{
+    margin-top: $size-4;
+}
+.mt-5{
+    margin-top: $size-5;
+}
+.mt-6{
+    margin-top: $size-6;
+}
+.mt-7{
+    margin-top: $size-7;
+}
+.mt-8{
+    margin-top: $size-8;
+}
+.mt-9{
+    margin-top: $size-9;
+}
+.mt-10{
+    margin-top: $size-10;
+}
+.mt-11{
+    margin-top: $size-11;
+}
+.mt-12{
+    margin-top: $size-12;
+}
+.mt-13{
+    margin-top: $size-13;
+}
+.mt-14{
+    margin-top: $size-14;
+}
+.mt-15{
+    margin-top: $size-15;
+}
+
+// +++++++++++++++++++++++++++++  margin Right ++++++++++++++++++++++++++++++++
+.mr-1{
+    margin-right: $size-1;
+}
+.mr-2{
+    margin-right: $size-2;
+}
+.mr-3{
+    margin-right: $size-3;
+}
+.mr-4{
+    margin-right: $size-4;
+}
+.mr-5{
+    margin-right: $size-5;
+}
+.mr-6{
+    margin-right: $size-6;
+}
+.mr-7{
+    margin-right: $size-7;
+}
+.mr-8{
+    margin-right: $size-8;
+}
+.mr-9{
+    margin-right: $size-9;
+}
+.mr-10{
+    margin-right: $size-10;
+}
+.mr-11{
+    margin-right: $size-11;
+}
+.mr-12{
+    margin-right: $size-12;
+}
+.mr-13{
+    margin-right: $size-13;
+}
+.mr-14{
+    margin-right: $size-14;
+}
+.mr-15{
+    margin-right: $size-15;
+}
+
+
+// +++++++++++++++++++++++++++++  margin Bottom ++++++++++++++++++++++++++++++++
+.mb-1{
+    margin-bottom: $size-1;
+}
+.mb-2{
+    margin-bottom: $size-2;
+}
+.mb-3{
+    margin-bottom: $size-3;
+}
+.mb-4{
+    margin-bottom: $size-4;
+}
+.mb-5{
+    margin-bottom: $size-5;
+}
+.mb-6{
+    margin-bottom: $size-6;
+}
+.mb-7{
+    margin-bottom: $size-7;
+}
+.mb-8{
+    margin-bottom: $size-8;
+}
+.mb-9{
+    margin-bottom: $size-9;
+}
+.mb-10{
+    margin-bottom: $size-10;
+}
+.mb-11{
+    margin-bottom: $size-11;
+}
+.mb-12{
+    margin-bottom: $size-12;
+}
+.mb-13{
+    margin-bottom: $size-13;
+}
+.mb-14{
+    margin-bottom: $size-14;
+}
+.mb-15{
+    margin-bottom: $size-15;
+}
+
+// +++++++++++++++++++++++++++++  Margin Left ++++++++++++++++++++++++++++++++
+.ml-1{
+    margin-left: $size-1;
+}
+.ml-2{
+    margin-left: $size-2;
+}
+.ml-3{
+    margin-left: $size-3;
+}
+.ml-4{
+    margin-left: $size-4;
+}
+.ml-5{
+    margin-left: $size-5;
+}
+.ml-6{
+    margin-left: $size-6;
+}
+.ml-7{
+    margin-left: $size-7;
+}
+.ml-8{
+    margin-left: $size-8;
+}
+.ml-9{
+    margin-left: $size-9;
+}
+.ml-10{
+    margin-left: $size-10;
+}
+.ml-11{
+    margin-left: $size-11;
+}
+.ml-12{
+    margin-left: $size-12;
+}
+.ml-13{
+    margin-left: $size-13;
+}
+.ml-14{
+    margin-left: $size-14;
+}
+.ml-15{
+    margin-left: $size-15;
+}
+
+
+// +++++++++++++++++++++++++++++  Margin X Axis ++++++++++++++++++++++++++++++++
+.mx-1{
+    margin: 0 $size-1 0 $size-1;
+}
+.mx-2{
+    margin: 0 $size-2 0 $size-2;
+}
+.mx-3{
+    margin: 0 $size-3 0 $size-3;
+}
+.mx-4{
+    margin: 0 $size-4 0 $size-4;
+}
+.mx-5{
+    margin: 0 $size-5 0 $size-5;
+}
+.mx-6{
+    margin: 0 $size-6 0 $size-6;
+}
+.mx-7{
+    margin: 0 $size-7 0 $size-7;
+}
+.mx-8{
+    margin: 0 $size-8 0 $size-8;
+}
+.mx-9{
+    margin: 0 $size-9 0 $size-9;
+}
+.mx-10{
+    margin: 0 $size-10 0 $size-10;
+}
+.mx-11{
+    margin: 0 $size-11 0 $size-11;
+}
+.mx-12{
+    margin: 0 $size-12 0 $size-12;
+}
+.mx-13{
+    margin: 0 $size-13 0 $size-13;
+}
+.mx-14{
+    margin: 0 $size-14 0 $size-14;
+}
+.mx-15{
+    margin: 0 $size-15 0 $size-15;
+}
+
+
+// +++++++++++++++++++++++++++++  Margin Y Axis ++++++++++++++++++++++++++++++++
+.py-1{
+    margin: $size-1 0 $size-1 0;
+}
+.py-2{
+    margin: $size-2 0 $size-2 0;
+}
+.py-3{
+    margin: $size-3 0 $size-3 0;
+}
+.py-4{
+    margin: $size-4 0 $size-4 0;
+}
+.py-5{
+    margin: $size-5 0 $size-5 0;
+}
+.py-6{
+    margin: $size-6 0 $size-6 0;
+}
+.py-7{
+    margin: $size-7 0 $size-7 0;
+}
+.py-8{
+    margin: $size-8 0 $size-8 0;
+}
+.py-9{
+    margin: $size-9 0 $size-9 0;
+}
+.py-10{
+    margin: $size-10 0 $size-10 0;
+}
+.py-11{
+    margin: $size-11 0 $size-11 0;
+}
+.py-12{
+    margin: $size-12 0 $size-12 0;
+}
+.py-13{
+    margin: $size-13 0 $size-13 0;
+}
+.py-14{
+    margin: $size-14 0 $size-14 0;
+}
+.py-15{
+    margin: $size-15 0 $size-15 0;
+}
+
+
+// -------------------------------------------------------------------
+
+// FLEX _------------------------------------------------
+.flex{
+    display: flex;
+}
+.flex-1	{
+    flex: 1 1 0%;
+}
+.flex-auto {
+    flex: 1 1 auto;
+}
+.flex-initial{
+    flex: 0 1 auto;
+}
+.flex-none	{
+    flex: none;
+}
+
+    // ------------- Flex Direction -------------------
+.flex-row{
+    flex-direction: row;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-col-reverse{
+    flex-direction: column-reverse;
+}
+
+    // ------------- Flex Wrap -------------------
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+
+    // ------------- Flex Grow -------------------
+.grow{
+    flex-grow: 1;
+}
+.grow-0{
+    flex-grow: 0;
+}
+    // ------------- Flex Shrink -------------------
+.shrink{
+    flex-shrink: 1;
+}
+.shrink-0{
+    flex-shrink: 0;
+}
 
 .text-center {
   text-align: center;
 }
 
-.p-4 {
-  padding: 1rem;
-}
 
 .bg-blue-500 {
   background-color: $primary-color;
