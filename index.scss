@@ -1,0 +1,15 @@
+// index.scss
+@import 'variables';
+@import 'base';
+
+.text-center {
+  text-align: center;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.bg-blue-500 {
+  background-color: $primary-color;
+}
